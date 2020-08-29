@@ -19,10 +19,10 @@ spec:
     }
   }
   environment {
-    CREDS = credentials('amerah-creds')
+    CREDS = credentials('epsilon_aws_creds')
     AWS_ACCESS_KEY_ID = "${CREDS_USR}"
     AWS_SECRET_ACCESS_KEY = "${CREDS_PSW}"
-    OWNER = 'amerah'
+    OWNER = 'epsilon'
     PROJECT_NAME = 'web-server'
   }
   stages {
